@@ -1,0 +1,1175 @@
+﻿{
+    "code": "0",
+    "msg": "成功",
+    "data": [
+        {
+            "id": 1234,
+            "title": "整门课简要概念图",
+            "desc": "",
+            "list": [
+            ]
+        },
+        {
+            "id": 1,
+            "title": "第一单元 走进java",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Java",
+                    "definition": "Java是一门由Sun公司推出的，可以撰写跨平台应用程序的，完全面向对象的高级语言。",
+                    "connotation": "Java具有简单、面向对象、体系结构中立、解释、可移植、分布式、安全、健壮、多线程、动态和高性能的特点。",
+                    "extension": "JAVASE、JAVAEE、JAVAME"
+                },
+                {
+                    "id": 2,
+                    "title": "Java SE",
+                    "definition": "Java SE（又称J2SE）是提供桌面、服务器、嵌入设备和实时环境中Java应用程序开发和部署的，标准版本的Java平台",
+                    "connotation": "JavaSE是整个Java技术的核心和基础也是Java EE和Java ME的基础。",
+                    "extension": ""
+                },
+                {
+                    "id": 3,
+                    "title": "Java EE",
+                    "definition": "JavaEE是用于企业级应用及服务开发的，企业版本的Java平台。",
+                    "connotation": "JavaEE是Java中应用最广泛的部分，主要应用于企业级应用的开发，例如电子商务、金融、医疗、电子政务等各类网站的建设。",
+                    "extension": ""
+                },
+                {
+                    "id": 4,
+                    "title": "Java ME",
+                    "definition": "Java ME（又称J2ME）是为机顶盒、移动电话和PDA等嵌入式电子设备提供的，高度优化的的Java平台。",
+                    "connotation": "JavaME主要应用于嵌入式系统开发，是为机顶盒、移动电话和PDA之类嵌入式消费电子设备提供的Java语言平台。",
+                    "extension": ""
+                },
+                {
+                    "id": 5,
+                    "title": "Java虚拟机",
+                    "definition": "Java虚拟机是在实际的计算机上仿真模拟各种计算机功能，屏蔽和具体操作系统相关的信息，从而实现Java跨平台的虚拟计算机",
+                    "connotation": "1、是Java语言的运行环境，是Java的核心和基础  2、Java虚拟机是一个想象中的机器，在实际的计算机上通过软件模拟来实现。  3、Java虚拟机（JVM）一种用于计算机设备的规范，可用不同的方式（软件或硬件）加以实现。  4、Java虚拟机有自己想象中的硬件，如处理器、堆栈、寄存器等，还具有相应的指令系统。  5、JVM是基于下层的操作系统和硬件平台,可以在上面执行java字节码程序。                      ",
+                    "extension": "Window 平台的JVM  Linux平台的JVM"
+                },
+                {
+                    "id": 6,
+                    "title": "JRE",
+                    "definition": "JRE是包括虚拟机、核心类库和支持文件，可以在其上运行、测试和传输Java应用程序的运行环境。",
+                    "connotation": "1、JRE包含了Java程序运行所需要的JVM及Java核心类库和支持文件，但并不包括Java开发工具（例如编译器）。",
+                    "extension": "Window 平台的JRE  Linux平台的JRE"
+                },
+                {
+                    "id": 7,
+                    "title": "JDK",
+                    "definition": "JDK是Sun公司针对Java开发人员发布的，包括Java运行时环境（JRE）、Java开发工具和类库在内的java开发工具包。",
+                    "connotation": "1、JDK提供了编译、运行Java程序所需要的各种工具和资源。它包括Java的运行环境、Java开发工具和类库。",
+                    "extension": "Window 平台的JDK  Linux平台的JDK"
+                },
+                {
+                    "id": 8,
+                    "title": "环境变量",
+                    "definition": "环境变量（Environment Variables）是指在操作系统中用来指定操作系统运行环境的变量。",
+                    "connotation": "",
+                    "extension": "Path环境变量  ClassPath环境变量"
+                },
+                {
+                    "id": 9,
+                    "title": "PATH环境变量",
+                    "definition": "Path环境变量是给Windows操作系统查找可执行程序提供路径的环境变量",
+                    "connotation": "1、Path环境变量配置的是可执行程序的路径",
+                    "extension": ""
+                },
+                {
+                    "id": 10,
+                    "title": "CLASSPATH环境变量",
+                    "definition": "CLASSPATH环境变量是给Windows操作系统查找字节码文件提供路径的环境变量",
+                    "connotation": "1、ClassPath环境变量配置的是字节码文件的路径",
+                    "extension": ""
+                },
+                {
+                    "id": 11,
+                    "title": "Java字节码",
+                    "definition": "字节码是由Java源文件编译生成的，在Java虚拟机上运行的二进制编码。",
+                    "connotation": "1、Java字节码是Java虚拟机执行的一种虚拟指令格式。  2、Java字节码由源文件编译生成。  3、Java字节码是后缀是.class的文件。",
+                    "extension": ""
+                },
+                {
+                    "id": 12,
+                    "title": "Java标识符",
+                    "definition": "标识符是由字母、数字、下划线(_)、美元($)等组成的，给方法、类、变量、包和接口命名的字符序列",
+                    "connotation": "1、标识符由英文字母、数字、下划线和美元符号组成，其中首字母不能是数字。  2、标识符的中间不能有空格。  3、对于Java关键字、保留字不能作为标识符进行命名。  4、在标识符中不能包含除美元符号外的其他特殊字符",
+                    "extension": "类名  方法名  变量名等"
+                },
+                {
+                    "id": 13,
+                    "title": "Java关键字",
+                    "definition": "Java关键字是Java预定义的，对Java编译器有特殊意义的字符序列。",
+                    "connotation": "",
+                    "extension": "保留字  程序控制关键字  public  static"
+                },
+                {
+                    "id": 14,
+                    "title": "Java保留字",
+                    "definition": "Java保留字是Java中尚未使用的关键字",
+                    "connotation": "",
+                    "extension": "goto  const"
+                },
+                {
+                    "id": 15,
+                    "title": "变量",
+                    "definition": "变量是通过标识符访问的，在内存中存储数据且内容可变的存储单元",
+                    "connotation": "1，变量有变量名和变量值  2，变量名是一个标识符",
+                    "extension": "int i = 9；"
+                },
+                {
+                    "id": 16,
+                    "title": "常量",
+                    "definition": "常量是用final修饰的，只能被赋值一次，在生命周期内不允许被修改的变量",
+                    "connotation": "第一章不讲，第八章讲",
+                    "extension": ""
+                },
+                {
+                    "id": 17,
+                    "title": "计算机程序",
+                    "definition": "程序是为实现特定目标，或解决特定问题而用计算机语言编写的指令序列",
+                    "connotation": "",
+                    "extension": "Java程序  C程序"
+                },
+                {
+                    "id": 18,
+                    "title": "整型",
+                    "definition": "整型是用于表示整数（不包含小数部分）的基本数据类型",
+                    "connotation": "",
+                    "extension": "byte short int long"
+                },
+                {
+                    "id": 19,
+                    "title": "浮点型",
+                    "definition": "浮点型是用于表示浮点数的基本数据类型",
+                    "connotation": "",
+                    "extension": "float double"
+                },
+                {
+                    "id": 20,
+                    "title": "字符型",
+                    "definition": "字符型是用于表示不具计算能力的文字的基本数据类型",
+                    "connotation": "",
+                    "extension": "char"
+                },
+                {
+                    "id": 21,
+                    "title": "布尔型",
+                    "definition": "布尔型是用于表示逻辑状态（true和false）的基本数据类型",
+                    "connotation": "",
+                    "extension": "boolean"
+                },
+                {
+                    "id": 22,
+                    "title": "数据类型",
+                    "definition": "数据类型是值和定义在这个值上的操作的集合",
+                    "connotation": "",
+                    "extension": "基本数据类型和引用数据类型"
+                },
+                {
+                    "id": 23,
+                    "title": "基本数据类型",
+                    "definition": "基本数据类型是Java预定义的，用关键字命名的，其表示的值直接存储在栈上的数据类型",
+                    "connotation": "1.基本数据类型是Java内置的数据类型  2.基本数据类型是用关键字命名的。",
+                    "extension": "整型 字符型 浮点型 布尔型"
+                },
+                {
+                    "id": 24,
+                    "title": "注释",
+                    "definition": "注释是写在源代码中的对代码解释和说明的，不会被编译的文本内容。",
+                    "connotation": "1.良好的注释有助于提高代码的可读性。 2.注释不会被编译器编译。",
+                    "extension": "单行注释 多行注释 文档注释"
+                },
+                {
+                    "id": 25,
+                    "title": "类型转换",
+                    "definition": "类型转换是在赋值、方法调用或算数运算情况下发生的，操作数由一种数据类型转换为另一种数据类型的过程。",
+                    "connotation": "",
+                    "extension": "自动类型转换和隐式类型转换 向上转型和向下转型"
+                },
+                {
+                    "id": 26,
+                    "title": "自动类型转换",
+                    "definition": "自动类型转换是指兼容的两种数据类型自动由低级向高级转换的类型转换。",
+                    "connotation": "1、自动类型转换是指数据类型由低级别类型向高级别类型转换时，低级别类型自动转换成高级别类型 2、两种数据类型要彼此兼容 目标数据类型要高于源数据类型",
+                    "extension": "double d = 9;从整型到浮点型"
+                },
+                {
+                    "id": 27,
+                    "title": "强制类型转换",
+                    "definition": "强制类型转换是通过类型说明符将操作数转化为所需要类型的类型转换",
+                    "connotation": "1、浮点类型转换成整型时会只保留整数部分，不会四舍五入； 2、强制类型转换是指数据类型由高级别类型向低级别类型转换时，需要明确低级别类型的目标数据类型 3、高级别类型数据转换成低级别类型时，如果数值超出了低级别数据 4、类型的存储空间，将会出现数据溢出的情况",
+                    "extension": "int i = (int)5.5;从浮点型到整型"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "第二单元 运算符和选择结构",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "集成开发环境",
+                    "definition": "是提供程序开发环境，包括代码编辑、编译、调试和图形用户界面等实用工具，用于快捷程序开发的应用程序",
+                    "connotation": "是一个应用程序 具备编译、编译、调试和图形界面工具",
+                    "extension": "Dreamweaver、Eclipse、MS VS"
+                },
+                {
+                    "id": 2,
+                    "title": "运算符",
+                    "definition": "运算符是Java中针对一个或多个操作数，执行特定操作的运算符号",
+                    "connotation": "一个或多个操作数，特定操作",
+                    "extension": "算术、赋值、比较、位、三目"
+                },
+                {
+                    "id": 3,
+                    "title": "表达式",
+                    "definition": "表达式是由操作数和运算符组合而成，能够执行特定计算并返回确定值的序列",
+                    "connotation": "序列、特定计算",
+                    "extension": ""
+                },
+                {
+                    "id": 4,
+                    "title": "赋值运算符",
+                    "definition": "将右边表达式的运算结果赋值给左侧表达式的运算符号",
+                    "connotation": "改变变量值",
+                    "extension": "=、+=、-=、/=、*=、%="
+                },
+                {
+                    "id": 5,
+                    "title": "算术运算符",
+                    "definition": "用来处理四则运算的运算符号",
+                    "connotation": "四则运算",
+                    "extension": "+、-、*、/、%、++、--"
+                },
+                {
+                    "id": 6,
+                    "title": "比较（关系）运算符",
+                    "definition": "用来判断两个表达式或值大小关系的运算符号",
+                    "connotation": "关系比较",
+                    "extension": ">、<、>=、<="
+                },
+                {
+                    "id": 7,
+                    "title": "逻辑运算符",
+                    "definition": "将比较运算的结果或逻辑值进行与、或、非操作的运算符号",
+                    "connotation": "逻辑关系",
+                    "extension": "与、或、非"
+                },
+                {
+                    "id": 8,
+                    "title": "位运算符",
+                    "definition": "直接对数值在内存中的二进制位进行操作的运算符号",
+                    "connotation": "内存中二进制运算",
+                    "extension": ">>、<<、>>>"
+                },
+                {
+                    "id": 9,
+                    "title": "三目运算符",
+                    "definition": "对三个操作数进行操作的运算符号",
+                    "connotation": "针对三个操作数",
+                    "extension": "?:"
+                },{
+                    "id": 10,
+                    "title": "选择结构",
+                    "definition": "用于判断给定的条件，根据判断的结果来控制程序流程的程序结构",
+                    "connotation": "条件判断、根绝结果执行、只有一个入口和一个出口",
+                    "extension": "if、switch"
+                },
+                {
+                    "id": 11,
+                    "title": "程序控制结构",
+                    "definition": "程序控制结构是结构化程序设计中，可组合嵌套的，用于控制程序执行顺序的，最基本的逻辑结构",
+                    "connotation": "逻辑结构、可组合可嵌套、控制执行顺序",
+                    "extension": "顺序结构、选择结构、循环结构"
+                },
+                {
+                    "id": 12,
+                    "title": "if选择结构",
+                    "definition": "是先根据条件进行判断，然后根据判断的结果，再决定程序的后续执行顺序的程序控制结构",
+                    "connotation": "判断条件、根据判断结果执行后续代码",
+                    "extension": "简单if结构、if-else结构、if-else if结构、嵌套if结构"
+                }
+            ,
+                {
+                    "id": 13,
+                    "title": "switch选择结构",
+                    "definition": "是根据条件，在多个选项中进行选择，从而决定程序执行顺序的程序控制结构",
+                    "connotation": "等值判断",
+                    "extension": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "第三单元 循环结构",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "循环结构",
+                    "definition": "循环结构是反复执行一系列指令直到某些特定条件满足的基本程序控制结构。",
+                    "connotation": "循环变量，循环条件，循环体",
+                    "extension": "while循环、do-while循环、for循环"
+                },
+                {
+                    "id": 2,
+                    "title": "while循环",
+                    "definition": "while循环是一种先判断后执行，当循环条件满足才执行循环体的循环结构",
+                    "connotation": "先判断，再执行；第一次条件不成立，循环体一次不执行；常用循环次数不明确",
+                    "extension": ""
+                },
+                {
+                    "id": 3,
+                    "title": "do-while循环",
+                    "definition": "do-while循环是一种先执行后判断，直到循环条件不满足退出的循环结构",
+                    "connotation": "先执行，再判断;第一次条件不成立，执行一次循环体;常用循环次数不明确",
+                    "extension": ""
+                },
+                {
+                    "id": 4,
+                    "title": "for循环",
+                    "definition": "for循环是一种常用于循环次数明确操作的循环结构",
+                    "connotation": "先执行，再判断;常用用于明确循环次数",
+                    "extension": "foreach循环"
+                },
+                {
+                    "id": 5,
+                    "title": "嵌套循环",
+                    "definition": "一个循环体内又包含另一个完整循环结构的循环结构",
+                    "connotation": "外层循环变量变化一次，内层循环变量要变化一遍",
+                    "extension": "while循环嵌套、do-while循环嵌套、for循环嵌套、各种循环嵌套"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "第四单元 数组",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "数组",
+                    "definition": "数组是有序的存储相同数据类型元素的容器。",
+                    "connotation": "数组是相同数据类型的元素的集、数组是一种数据结构、数组可以存储多个数据，每个数据都作为一个数组元素而存在、数组的长度是不可变的、 数组中的各元素的存储是有先后顺序的，它们在内存中按照这个先后顺序连续存放在一起、数组元素用整个数组的名字和它自己在数组中的顺序位置来表示、数组在内存中是一块连续的空间，用于存储相同类型的数据。",
+                    "extension": "一维数组，二维数组，多维数组  基本类型数组，引用类型数组"
+                },
+                {
+                    "id": 2,
+                    "title": "引用数据类型数组",
+                    "definition": "引用数据类型数组是存储引用数据类型元素的数组",
+                    "connotation": "以后讲，不是本章概念",
+                    "extension": ""
+                },
+                {
+                    "id": 3,
+                    "title": "基本数据类型数组",
+                    "definition": "基本数据类型数组是存储基本数据类型元素的数组",
+                    "connotation": "",
+                    "extension": "int数组   double数组  boolean数组等"
+                },
+                {
+                    "id": 4,
+                    "title": "数组下标",
+                    "definition": "数组下标是用于区分数组中各个元素的数字编号",
+                    "connotation": "其最小值成为下界，其最大值成为上界。指数据元素在数组中存放的排列顺序编号，根据这个编号就能够顺利的得到对应的数据。下标的值必须是整数",
+                    "extension": "值为整数的变量、值为整数的常量、值为整数的表达式"
+                },
+                {
+                    "id": 5,
+                    "title": "数组元素",
+                    "definition": "数组元素是存储在数组中的数据",
+                    "connotation": "数组元素是组成数组的基本单元 是向数组中存放的数据 数组元素也是一种变量, 其标识方法为数组名后跟一个下标。",
+                    "extension": "数字、字符等"
+                },
+                {
+                    "id": 6,
+                    "title": "冒泡排序",
+                    "definition": "冒泡排序是对相邻的元素进行两两比较，顺序相反则进行交换，不断重复直到元素全部有序的排序算法",
+                    "connotation": "1.Arrays类中的所有方法都是静态方法 2.包含了各种方法来操作数组",
+                    "extension": "int数组   double数组  boolean数组等"
+                },
+                {
+                    "id": 7,
+                    "title": "foreach循环",
+                    "definition": "foreach循环（增强的for循环）是无需使用下标和指定数组长度的用于遍历数组和集合的，简化版本的for循环结构。 ",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 8,
+                    "title": "一维数组",
+                    "definition": "一维数组是使用一个下标访问数组元素的数组 ",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 9,
+                    "title": "二维数组",
+                    "definition": "二维数组是使用两个下标访问的，以一维数组作为数组元素的数组",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 10,
+                    "title": "多维数组",
+                    "definition": "多维数组是使用多个下标访问的，数组的数组",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 11,
+                    "title": "Arrays类",
+                    "definition": "Arrays类是提供对数组进行排序、查询和修改等操作方法的工具类",
+                    "connotation": "1.最经典也是最简单的排序算法之一。2.冒泡排序的原理是相邻的元素进行两两比较，顺序相反则进行交换，不断重复直到元素全部有序",
+                    "extension": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "第五单元 类和对象",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "面向对象",
+                    "definition": "是一种以对象为导向，围绕对象来开发应用程序的软件开发方法",
+                    "connotation": "是一种软件开发方法 是一种软件开发思想 以对象为导向 具有封装、继承、多态",
+                    "extension": " OOA  OOD  OOP"
+                },
+                {
+                    "id": 2,
+                    "title": "生活中的对象",
+                    "definition": "对象是人们在行动或思考时作为目标的事物",
+                    "connotation": "行动或思考 目标",
+                    "extension": " 有形对象  无形对象"
+                },
+                {
+                    "id": 3,
+                    "title": "计算机中的对象",
+                    "definition": "计算机中的对象是客观世界中的对象在计算机中的映射",
+                    "connotation": "唯一性 软件系统的基本单元 数据和操作的统一体",
+                    "extension": " 物理实体的映射对象  人为的概念"
+                },
+                {
+                    "id": 4,
+                    "title": "属性",
+                    "definition": "属性是对象具有的性质和对象间关系的统称",
+                    "connotation": "对象所具有的性质和对象间的关系 对象所具有的数据值",
+                    "extension": " 类属性  实例属性"
+                },
+                {
+                    "id": 5,
+                    "title": "方法",
+                    "definition": "方法是计算机中对象所具有的行为",
+                    "connotation": "对象的行为 组织在一起用来执行一个任务的语句块",
+                    "extension": " 实例方法  静态方法  构造方法"
+                },
+                {
+                    "id": 6,
+                    "title": "抽象",
+                    "definition": "抽象是从具体事物中抽出共同特性(属性)和行为(方法)的思维过程",
+                    "connotation": "共同的 思考角度决定共同点的筛取 必须经过比较",
+                    "extension": " 数据抽象  过程抽象"
+                },
+                {
+                    "id": 7,
+                    "title": "类",
+                    "definition": "类是经过抽象，得出的具有相同属性和方法的一组对象的集合",
+                    "connotation": "多个对象 抽象 集合",
+                    "extension": " 能否实例化：普通类、抽象类  Static修饰：静态类、非静态类  定义位置：嵌套类、非嵌套类  有无类名：匿名类、非匿名类"
+                },
+                {
+                    "id": 8,
+                    "title": "引用数据类型",
+                    "definition": "引用数据类型是由基本数据类型构造组合封装而成，其表示的对象存储在堆上，对象的引用存储在栈上的数据类型。",
+                    "connotation": "栈中存储实际数据的引用 堆中存放实际的数据 通过引用访问对象在内存中的数据 一个对象可以有多个引用",
+                    "extension": " 类  接口  数组  字符串  枚举  注解类型"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "title": "第六、七单元 方法和变量",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "成员变量",
+                    "definition": "引用数据类型是由基本数据类型构造组合封装而成，其表示的对象存储在堆上，对象的引用存储在栈上的数据类型。",
+                    "connotation": "栈中存储实际数据的引用 堆中存放实际的数据 通过引用访问对象在内存中的数据 一个对象可以有多个引用",
+                    "extension": " 类  接口  数组  字符串  枚举  注解类型"
+                },
+                {
+                    "id": 2,
+                    "title": "成员方法",
+                    "definition": "成员方法是类中声明用于表示类具有的行为的方法",
+                    "connotation": "1：类的数据成员 2：是具有相对独立功能的模块 3：多个同类对象共享成员方法",
+                    "extension": "静态方法 实例方法 有参方法 有返回值的方法"
+                },
+                {
+                    "id": 3,
+                    "title": "局部变量",
+                    "definition": "局部变量是定义在方法中，使用时必须赋初始值，且作用域只在方法内的变量",
+                    "connotation": "1：方法中的成员 2：必须在使用时赋初始值 3：作用域在方法中 4：同名的局部变量与成员变量局部变量优先级高",
+                    "extension": "形参 方法中的变量"
+                },
+                {
+                    "id": 4,
+                    "title": "实例变量",
+                    "definition": "实例变量是仅可以通过对象调用的变量",
+                    "connotation": "1：类的数据成员 2：有默认值 3：当对象创建时在堆中开辟空间 4：作用域是整个类 5：不能由static修饰",
+                    "extension": "类中的变量且没有static修饰"
+                },
+                {
+                    "id": 5,
+                    "title": "静态方法",
+                    "definition": "静态方法是由static 修饰，生命周期和类相同的成员方法",
+                    "connotation": "1：类的数据成员 2：有默认值 3：当对象创建时在堆中开辟空间 4：作用域是整个类 5：不能由static修饰",
+                    "extension": "类中的变量且有static修饰"
+                },
+                {
+                    "id": 6,
+                    "title": "实例方法",
+                    "definition": "实例方法是仅可以通过对象调用的方法",
+                    "connotation": "1：类的数据成员 2：是具有相对独立功能的模块 3：多个同类对象共享成员方法 4:不能用static修饰",
+                    "extension": "类中的方法 可以有参可以无参 可以有返回值可以没有返回值 但是不能用static修饰"
+                },
+                {
+                    "id": 7,
+                    "title": "代码块",
+                    "definition": "代码块是指用“{}”括起来的一段代码",
+                    "connotation": "1：对位置没有要求 2：用{}括起来的代码段",
+                    "extension": "普通代码块、构造代码块、静态代码块、同步代码块"
+                },
+                {
+                    "id": 8,
+                    "title": "静态块",
+                    "definition": "由static 修饰的代码块",
+                    "connotation": "1：用static修饰的代码块 2：随着类的加载而执行 3：只执行一次 4：用于给类初始化",
+                    "extension": "static{}"
+                },
+                {
+                    "id": 9,
+                    "title": "静态变量",
+                    "definition": "静态变量是由static修饰的成员变量",
+                    "connotation": "1：类的数据成员 2：有默认值 3：作用域是整个类 4：由static 修饰",
+                    "extension": "所有static修饰的成员变量"
+                },
+                {
+                    "id": 10,
+                    "title": "修饰符",
+                    "definition": "修饰符是用于限定类型和类型成员而声明的关键字。",
+                    "connotation": "1：限定类型，和类型下的成员 2：具有特殊意义 3：不可独立存在",
+                    "extension": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "第八单元 封装",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "封装",
+                    "definition": "将抽象得到的属性和方法形成“类”，并将类内部信息进行隐藏，限制从类外访问，从而提升代码安全性和可维护性的机制",
+                    "connotation": "1、抽象属性和方法 2、隐藏内部实现细节 3、对外提供访问接口 4、提高安全性",
+                    "extension": "类的封装、属性的封装、方法的封装"
+                },
+                {
+                    "id": 2,
+                    "title": "属性",
+                    "definition": "属性是程序语言中，通过使用getter和setter方法实现合法性验证并向外提供公共访问的机制。",
+                    "connotation": "1、 类向外提供数据 2、 property是程序语言中的概念 3、 getter和setter方法 4、 具有约束性",
+                    "extension": ""
+                },
+                {
+                    "id": 3,
+                    "title": "包",
+                    "definition": "包是Java为了更好的组织和管理类，防止命名冲突，有文件夹的形式存放一组相关类、接口、枚举和注释类等内容的机制",
+                    "connotation": "1、 类库单元 2、 防止命名冲突 3、 限制访问权限 4、 借助操作系统目录实现",
+                    "extension": "lang包、util包、text包、io包"
+                },
+                {
+                    "id": 4,
+                    "title": "访问修饰符",
+                    "definition": "访问修饰符是用于限定类型以及类型成员的可见性等级的修饰符。",
+                    "connotation": "1、限制访问级别 2、限定类型以及类型成员",
+                    "extension": "private、缺省（无关键字）、protected、public"
+                },
+                {
+                    "id": 5,
+                    "title": "构造方法",
+                    "definition": "构造方法是名称与定义他的类名相同且无返回值类型修饰的，由系统在创建对象时自动调用的，完成对象创建和初始化工作的特殊方法。",
+                    "connotation": "1、 构造方法与定义他的类名相同 2、 类中必定有构造方法 3、 若不写，系统自动添加无参构造 4、 主要完成对象的初始化工作 5、 不能被static、final、synchronized、abstract、native修饰",
+                    "extension": "无参构造方法、有参构造方法、默认构造"
+                },
+                {
+                    "id": 6,
+                    "title": "重载",
+                    "definition": "重载是允许在同一个类中编写参数列表不同的同名方法的机制。",
+                    "connotation": "1、 同一个类中 2、 方法名相同 3、 参数列表不同 4、 编译时多态（静态多态） ",
+                    "extension": "println方法、构造方法重载、成员方法重载"
+                },
+                {
+                    "id": 7,
+                    "title": "this",
+                    "definition": "this代表当前对象的关键字",
+                    "connotation": "只能在实例方法和构造方法中使用 不能在方法外面使用",
+                    "extension": ""
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "第九单元 继承",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "继承",
+                    "definition": "是一个类（或接口）既能直接复用另一个类（或接口）的属性和方法，又能扩展新能力，从而提高代码复用性的机制",
+                    "connotation": "1.被继承者---超类(或基类、父类) 2.继承者---子类(或派生类) 3.子类能继承父类的属性和方法，并能扩展新功能，是一种增量式的开发模式 4.继承关系是传递的 5.提高了代码重用性 6.是类和类之间的一种层次结构关系",
+                    "extension": ""
+                },
+                {
+                    "id": 2,
+                    "title": "超类",
+                    "definition": "超类是被其它类继承的类",
+                    "connotation": "",
+                    "extension": "用户类     银行卡类"
+                },
+                {
+                    "id": 3,
+                    "title": "子类",
+                    "definition": "子类是继承了其它类的类",
+                    "connotation": "",
+                    "extension": "学生类      信用卡类"
+                },
+                {
+                    "id": 4,
+                    "title": "重写",
+                    "definition": "重写是子类重新实现父类同名方法，提高代码可扩展性、可维护性的机制",
+                    "connotation": "1.参数列表必须与被重写方法的相同。 2.访问修饰符的限制一定要不小于被重写方法的访问修饰符 3.返回类型必须与被重写方法的返回类型相同 4.重写方法所抛出的异常必须和被重写方法抛出的异常一致，或者是其子类。 5.如果一个方法不能被继承，则不能重写它。 6.不能重写被标识为final的方法。 7.静态方法不能被重写。",
+                    "extension": "重写toString方法  。          重写equals方法。"
+                },
+                {
+                    "id": 5,
+                    "title": "final",
+                    "definition": "final是表示“最终”含义的，可以用来修饰类、方法和属性的非访问修饰符",
+                    "connotation": "1.系统不会final的成员变量隐式的赋初值，需显式的指定初始值必须在实际使用前进行初始化 2.一旦初始化则不能更改，即只能赋值一次 3.final修饰引用数据类型则引用不能更改，但是引用指向的对象可以更改 4.final修饰的变量是常量 5.final修饰的方法不能被子类重写 6.final修饰的类不能被子类继承",
+                    "extension": "final double PI = 3.14;"
+                },
+                {
+                    "id": 6,
+                    "title": "super",
+                    "definition": "super是表示父类引用的关键字",
+                    "connotation": "1.使用super调用父类构造函数 2.使用super访问父类属性 3.使用super访问父类方法",
+                    "extension": ""
+                },
+                {
+                    "id": 7,
+                    "title": "object",
+                    "definition": "Object是Java中所有类的超类。",
+                    "connotation": "1.Object是类层次的根 2.当一个类没有显式继承其他类时，系统会自动让其继承Object",
+                    "extension": "普通类  最终类 父类  子类"
+                }
+            ]
+        },
+        {
+            "id": 1011,
+            "title": "第十、十一单元 多态",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "多态",
+                    "definition": "是同一个操作根据作用对象(或参数)的不同而实现不同的功能，从而提升代码可扩展性的机制",
+                    "connotation": "1、是面向对象的四大特性之一 2、是一种编程技巧 3、可以提升程序的可扩展性",
+                    "extension": "1、编译时多态(静态多态) 2、运行时多态(动态多态) "
+                },
+                {
+                    "id": 2,
+                    "title": "编译时多态",
+                    "definition": "是通过将同一操作的方法参数设为不同，来实现不同功能，从而提升代码可扩展性的机制",
+                    "connotation": "1，通过方法的重载实现 2，是静态的多态，在程序运行前就已经确定的多态。",
+                    "extension": "例：重载方法 public void show(){} public void show(int i){}"
+                },
+                {
+                    "id": 3,
+                    "title": "运行时多态",
+                    "definition": "是同一个操作根据作用对象的不同而实现不同的功能，从而提升代码可扩展性的机制",
+                    "connotation": "1，通过继承，方法重写和父类引用指向子类对象实现。 2，是动态的多态，程序运行时才会确定真正执行的功能。",
+                    "extension": "例：Person p = new Man(); p.walk();"
+                },
+                {
+                    "id": 4,
+                    "title": "向上转型",
+                    "definition": "是子类引用自动转换为父类类型(父类引用指向子类对象)的类型转换",
+                    "connotation": "1，是自动的类型转换 2，无论直接还是间接继承，都可实现",
+                    "extension": "例：Person p = new Man();"
+                },
+                {
+                    "id": 5,
+                    "title": "向下转型",
+                    "definition": "是父类引用强制转换为子类类型的类型转换",
+                    "connotation": "1，是强制的类型转换 2，需要使用强制类型转换符 3，是存在风险的，可能发生类型转换异常",
+                    "extension": "例：Man m = (Person)p"
+                },
+                {
+                    "id": 6,
+                    "title": "方法绑定",
+                    "definition": "是一种将方法调用和方法主体关联起来，使得方法中的功能可以被使用的机制",
+                    "connotation": "1，是方法调用时的一种机制 2，用来确定方法执行功能",
+                    "extension": "1、前期绑定 2、后期绑定"
+                },
+                {
+                    "id": 7,
+                    "title": "前期绑定",
+                    "definition": "前期绑定是在程序执行前进行的方法绑定",
+                    "connotation": "前期绑定是在程序执行前进行的方法绑定",
+                    "extension": "例：Person p = new Person(); p.walk();"
+                },
+                {
+                    "id": 8,
+                    "title": "后期绑定",
+                    "definition": "是在程序运行时，根据对象的类型进行的方法绑定",
+                    "connotation": "1，是一种动态的绑定，在运行时才根据对象确定方法的功能",
+                    "extension": "例：Person p = new Man(); p.walk();"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "第十二单元 抽象类和接口",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "接口",
+                    "definition": "接口：用interface表示、不能实例化的引用数据类型",
+                    "connotation": "不能实例化、由静态常量和公共方法组成、用interface         表示、可以多继承",
+                    "extension": "自定义的接口、Java自带接口，如：List、Set、Collection"
+                },
+                {
+                    "id": 2,
+                    "title": "抽象类",
+                    "definition": "用abstract 修饰、不能实例化的类",
+                    "connotation": "用abstract修饰、不能实例化",
+                    "extension": "举例，自定义：Animal抽象类      Java自带：AbstractAction、AbstractButton"
+                },
+                {
+                    "id": 3,
+                    "title": "抽象方法",
+                    "definition": "用abstract修饰，没有方法体的方法",
+                    "connotation": "用abstract修饰、没有方法体",
+                    "extension": "举例，自定义：自定义抽象方法"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "第十三单元 常用类",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "java.util包",
+                    "definition": "提供了Java实用工具类的包",
+                    "connotation": "1：由类库提供 2：在java核心类库下 3:提供包含集合框架，事件模型，日期时间工具，国际化等各种实用工具类",
+                    "extension": "java.util"
+                },
+                {
+                    "id": 2,
+                    "title": "java.lang包",
+                    "definition": "提供了Java语言进行程序设计的基础类、默认导入的包",
+                    "connotation": "1：java编程语言程序设计的基础类 2：提供基本类型的包装类， 3：提供最重要的Object类",
+                    "extension": "java.lang"
+                },
+                {
+                    "id": 3,
+                    "title": "java.net包",
+                    "definition": "提供实现网络应用与开发类的包",
+                    "connotation": "1:提供了实现网络应用程序的类 2:处理地址，套接字，描述网络的接口 3：处理URI，URL，及URL所指向资源的链接",
+                    "extension": "java.net"
+                },
+                {
+                    "id": 4,
+                    "title": "java.text包",
+                    "definition": "java.text包是提供各种文本,日期，格式化等类和接口的包",
+                    "connotation": "1:与自然语言无关，所以可以动态设置。 2：提供用于处理文本，日期，数字和消息的类和接口",
+                    "connotation": "java.text"
+                },
+                {
+                    "id": 5,
+                    "title": "java.io包",
+                    "definition": "java.io包是提供数据输入输出操作的类和接口的包",
+                    "connotation": "1:提供了全面的输入输出接口 2：通过数据流，序列化，文件提供提供输入输出操作",
+                    "extension": "java.io"
+                },
+                {
+                    "id": 6,
+                    "title": "Date类",
+                    "definition": "是Java中用于表示时间，精度可以达到毫秒级的类 ",
+                    "connotation": "1：表示时间的类，不便于实现国际化 2:JDK1.1后推荐Calendar类",
+                    "extension": "new Date()通过创建对象获取系统当前信息"
+                },
+                {
+                    "id": 7,
+                    "title": "SimpleDateFormat类",
+                    "definition": "SimpleDateFormat是用来格式化和解析日期的类",
+                    "connotation": "1：以国别敏感的方法格式化和分析数据的具体类 2：语序格式化，语法化，标准化",
+                    "extension": "通过SimpleDateFormat的对象来调用格式化的format方法完成格式化"
+                },
+                {
+                    "id": 8,
+                    "title": "String类",
+                    "definition": "String是表示字符序列并且长度和内容不可改变的类。",
+                    "connotation": "1：字符数组实现 2：字符串常量不可变，只能改变对象 3：值在常量池共享",
+                    "extension": "1：直接赋值 2：通过创建对象赋值"
+                },
+                {
+                    "id": 9,
+                    "title": "StringBuffer类",
+                    "definition": "StringBuffer是用于表示可变字符序列，线程安全的类",
+                    "connotation": "1:字符数组实现 2：字符串可以改变 3：所有方法均由synchronized修饰即同步，线程安全",
+                    "extension": "StringBuffer sb=StringBuffer(\"abc\");"
+                },
+                {
+                    "id": 10,
+                    "title": "StringBuilder类",
+                    "definition": "StringBuilder是用于表示可变字符序列，线程不安全的类",
+                    "connotation": "1:字符数组实现 2：字符串可以改变 3：线程不安全，所以但从运行速度上比StringBuffer有优势",
+                    "extension": "StringBuilder sb=new StringBuilder(\"abc\");"
+                },
+                {
+                    "id": 11,
+                    "title": "包装类",
+                    "definition": "是为了值类型数据和对象间能互相转换，提供装箱和拆箱机制的类",
+                    "connotation": "装箱、拆箱",
+                    "extension": ""
+                },
+                {
+                    "id": 12,
+                    "title": "装箱",
+                    "definition": "将值类型转换为引用类型的机制",
+                    "connotation": "在JDK1.5之前需要手动，JDK1.5既可以手动也可以自动完成",
+                    "extension": ""
+                },
+                {
+                    "id": 13,
+                    "title": "拆箱",
+                    "definition": "将引用类型转换为值类型的机制",
+                    "connotation": "在JDK1.5之前需要手动，JDK1.5既可以手动也可以自动完成",
+                    "extension": ""
+                },
+                {
+                    "id": 14,
+                    "title": "类库",
+                    "definition": "Java类库是由Java常用类、接口、异常类等组成，以包的形式来组织管理而形成的包的集合",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 15,
+                    "title": "Java类库",
+                    "definition": "是由Java常用类、接口、异常类等组成，以包的形式来组织管理而形成的包的集合",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 16,
+                    "title": "Math类",
+                    "definition": "Math是一个用于执行基本数学运算的类",
+                    "connotation": "1：用于完成数据运算的类 2：所有方法均被static修饰",
+                    "extension": "Math类直接使用，无需创建对象"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "第十四单元 容器框架及List集合",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "容器",
+                    "definition": "容器是用来存储和组织其他对象的对象",
+                    "connotation": "本身是个对象，存储的是对象",
+                    "extension": ""
+                },
+                {
+                    "id": 2,
+                    "title": "容器框架",
+                    "definition": "容器框架是为了表示和操作容器而规定的统一标准的体系结构",
+                    "connotation": "表示和操作容器，统一标准",
+                    "extension": "Arrays数组，Collection集合,Map容器"
+                },
+                {
+                    "id": 3,
+                    "title": "集合",
+                    "definition": "是在计算机中用于存储一种或多种引用类型数据，并且长度可变的容器",
+                    "connotation": "存储一种或多种引用类型数，长度可变",
+                    "extension": "List集合，Set集合，Queue集合"
+                },
+                {
+                    "id": 4,
+                    "title": "Vector类",
+                    "definition": "Vector是基于数组线性存储的，用于实现可扩展对象数组的遗留集合类",
+                    "connotation": "大小可变，索引访问，线程同步且线程安全的",
+                    "extension": "Stack集合"
+                },
+                {
+                    "id": 5,
+                    "title": "List接口",
+                    "definition": "List接口是容器框架中继承了Collection接口，声明有序存储对象（可重复）功能的公共接口",
+                    "connotation": "有序，可重复",
+                    "extension": "ArrayList，Vector,LinkedList "
+                },
+                {
+                    "id": 6,
+                    "title": "ArrayList",
+                    "definition": "实现了长度可变的数组，在内存中分配连续空间的集合",
+                    "connotation": "有序序列，连续下标，可重复",
+                    "extension": ""
+                },
+                {
+                    "id": 7,
+                    "title": "LinkedList",
+                    "definition": "基于链表的，实现了List接口和Queue接口的集合",
+                    "connotation": "允许为null，通过索引访问，可重复",
+                    "extension": ""
+                },
+                {
+                    "id": 8,
+                    "title": "迭代",
+                    "definition": "迭代是对一系列指令反复执行，每次执行都从迭代变量的原值推出新值的过程",
+                    "connotation": "",
+                    "extension": ""
+                },
+                {
+                    "id": 9,
+                    "title": "迭代器",
+                    "definition": "迭代器是使用迭代法检查容器内部元素并遍历元素的对象。",
+                    "connotation": "",
+                    "extension": "Iterator,ListIterator"
+                },
+                {
+                    "id": 10,
+                    "title": "Queue接口",
+                    "definition": "Queue是封装了队列功能的容器框架中的公共接口",
+                    "connotation": "先进先出",
+                    "extension": "ArrayQueue,PriorityQueue,LinkedList"
+                },
+                {
+                    "id": 11,
+                    "title": "栈（Stack）",
+                    "definition": "Stack是实现list接口的，具有后进先出特点的集合",
+                    "connotation": "先进后出",
+                    "extension": ""
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "第十五单元 容器框架之Set集合",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Set集合",
+                    "definition": "是无序存储不可重复对象、长度可变的容器",
+                    "connotation": "1，存储无序不可重复元素 2，长度可变 3，只能存储对象",
+                    "extension": ""
+                },
+                {
+                    "id": 2,
+                    "title": "Set接口",
+                    "definition": "是容器框架中继承了Collection接口，声明无序存储对象（不可重复）功能的公共接口",
+                    "connotation": "1，是一个接口 2，继承Collection接口 3，常用方法和Collection接口的方法一致",
+                    "extension": "1，HashSet 2，LinkedHashSet 3，TreeSet"
+                },
+                {
+                    "id": 3,
+                    "title": "HashSet集合",
+                    "definition": "是基于哈希表，无序存储不可重复对象的集合",
+                    "connotation": "1，基于哈希表实现 2，实现了Set接口 3，需要使用hashCode算法计算元素的hash值",
+                    "extension": ""
+                },
+                {
+                    "id": 4,
+                    "title": "LinkedHashSet集合",
+                    "definition": "是基于双向链表和哈希表、继承自HashSet，无序存储不可重复对象的集合",
+                    "connotation": "1，基于哈希表和双向链表共同实现 2，遍历的顺序和输入顺序一致 3，继承了HashSet类",
+                    "extension": ""
+                },
+                {
+                    "id": 5,
+                    "title": "TreeSet集合",
+                    "definition": "基于红黑树、实现了Set接口，具有排序功能，无序存储不可重复对象的集合",
+                    "connotation": "1，基于红黑树实现 2，可以进行排序 3，储存的对象需要实现Comparable接口或集合在创建的时候将比较器作为参数传递进来",
+                    "extension": ""
+                },
+                {
+                    "id": 6,
+                    "title": "Comparable接口",
+                    "definition": "是集合内部元素需要实现并重写CompareTo方法，用来对集合进行自然排序的接口",
+                    "connotation": "1，实现该接口的类即可进行排序",
+                    "extension": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Comparator接口",
+                    "definition": "是在集合元素本身不能比较的情况下，在集合外部对集合进行定制排序的对象",
+                    "connotation": "1，需要将该比较器作为参数传入到集合的构造器中 2，无序对集合元素进行修改",
+                    "extension": ""
+                },
+                {
+                    "id": 8,
+                    "title": "Collections类",
+                    "definition": "Collections类是提供对集合进行排序、查询和修改等操作方法的工具类",
+                    "connotation": "1，是一个工具类 2，其中包含有大量静态方法",
+                    "extension": ""
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "第十六单元 容器框架之Map",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Map",
+                    "definition": "容器框架中声明以键值对形式存储元素功能的公共接口",
+                    "connotation": "以键值对形式存储元素、公共接口",
+                    "extension": "HashMap、TreeMap、Hashtable"
+                },
+                {
+                    "id": 2,
+                    "title": "HashMap",
+                    "definition": "基于哈希表、以键值对形式存储、线程不安全的实现了Map接口的容器类",
+                    "connotation": "基于哈希表、以键值对形式存储、实现Map接口的类",
+                    "extension": "LinkedHashMap"
+                },
+                {
+                    "id": 3,
+                    "title": "HashTable",
+                    "definition": "基于散列表实现、键值对形式存储、线程安全的实现Map接口的容器类",
+                    "connotation": "基于散列表实现、键值对形式存储、线程安全",
+                    "extension": "自定义创建Hashtable对象"
+                },
+                {
+                    "id": 4,
+                    "title": "LinkedHashMap",
+                    "definition": "使用双向链表方式实现、以键值对形式存储数据，继承自HashMap的容器类",
+                    "connotation": "双向链表实现、键值对存储、继承自HashMap",
+                    "extension": "自定义创建LinkedHashMap对象"
+                },
+                {
+                    "id": 5,
+                    "title": "TreeMap",
+                    "definition": "基于红黑树、实现了Map接口具有排序功能的容器类",
+                    "connotation": "基于红黑树、具有排序功能",
+                    "extension": "自定义创建TreeMap对象"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "第十七单元 异常处理",
+            "desc": "",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Throwable",
+                    "definition": "是直接继承Object类，处于整个异常体系结构最顶端的类。",
+                    "connotation": "Exception",
+                    "extension": "Error、Exception"
+                },
+                {
+                    "id": 2,
+                    "title": "异常",
+                    "definition": "在程序运行过程中，由java应用程序抛出和处理的非严重型的错误。",
+                    "connotation": "1）是Java程序运行中的非严重性错误 2）异常是JVM把出错信息（出错原因、类型、位置等）打包而成的一个对象 3）异常具有偶然性 4）异常具有可预见性",
+                    "extension": "根据方法是否必须声明抛出，异常分为运行时异常（非检查型异常）、非运行时异常（检查型异常） 2）异常还包括自定义异常"
+                },
+                {
+                    "id": 3,
+                    "title": "Error",
+                    "definition": "在程序运行过程中，JVM出现的不可处理的严重性的错误。",
+                    "connotation": "一般情况下，程序不会从错误中恢复，用于标记严重错误，大多数是非正常的、不该出现的错误",
+                    "extension": "JVM内存溢出"
+                },
+                {
+                    "id": 4,
+                    "title": "RuntimeException",
+                    "definition": "是继承了Exception类的，无须声明、无须捕获的的异常。",
+                    "connotation": "运行时异常可以在编译时被忽略",
+                    "extension": "ClassCastException、IndexOutOfBoundsException、DateTimeException、IllegalArgumentException、NullPointerException"
+                },
+                {
+                    "id": 5,
+                    "title": "unchecked异常",
+                    "definition": "是派生于RuntimeException的，不需要显式捕获的异常。",
+                    "connotation": "不需要在代码中显式的捕获的异常",
+                    "extension": "ClassCastException、IndexOutOfBoundsException、DateTimeException、IllegalArgumentException、NullPointerException"
+                },
+                {
+                    "id": 6,
+                    "title": "checked异常",
+                    "definition": "是派生于Exception的(除RuntimeException之外)，需要显式捕获的异常。",
+                    "connotation": "需要在代码中显式的捕获的异常,不是程序内部可以控制的，不如文件不存在、网络连接错误",
+                    "extension": "FileNotFoundException、DataFormatException、IOException、SQLException"
+                },
+                {
+                    "id": 7,
+                    "title": "try",
+                    "definition": "是标示可能会发生异常代码块的关键字",
+                    "connotation": "标记可能发生但不一定发生异常的代码块",
+                    "extension": ""
+                },
+                {
+                    "id": 8,
+                    "title": "catch",
+                    "definition": "是标示try代码块出现异常时，根据异常类型来捕获并处理异常的关键字",
+                    "connotation": "多重catch时，子类在前父类在后",
+                    "extension": ""
+                },
+                {
+                    "id": 9,
+                    "title": "finally",
+                    "definition": "是在try或catch代码块之后，标示无论有无异常都将执行的代码块的关键字",
+                    "connotation": "无论try中是否发生异常，都会执行进行资源回收",
+                    "extension": ""
+                },
+                {
+                    "id": 10,
+                    "title": "throw",
+                    "definition": "是在方法体中，抛出异常的关键字",
+                    "connotation": "在方法体中使用 使具体向外抛异常的动作，抛出一个异常对象 一定抛出了某种异常",
+                    "extension": ""
+                },
+                {
+                    "id": 11,
+                    "title": "throws",
+                    "definition": "是在声明方法时，指定可能会抛出哪些异常的关键字",
+                    "connotation": "用在方法声明后面 表示出现异常的一种可能性，并不一定会发生 使它的调用者知道要捕获这个异常，由方法的调用者来处理异常",
+                    "extension": ""
+                },
+                {
+                    "id": 12,
+                    "title": "异常处理",
+                    "definition": "是为程序运行中可能出现的异常提供捕获、抛出和处理程序，防止程序崩溃，提高程序健壮性的机制",
+                    "connotation": "通过try、catch、finally进行异常处理 实现功能代码和错误处理代码的分离 增强代码可读性",
+                    "extension": ""
+                }
+            ]
+        }
+    ]
+}
